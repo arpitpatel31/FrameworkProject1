@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extendReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="CRM application automation test case(failed)">
+    <classes>
+      <class name="testcases.ContactsPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createNewContact"/>
+          <include name="createNewContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- CRM application automation test case(failed) -->
+</suite> <!-- Failed suite [Suite] -->
